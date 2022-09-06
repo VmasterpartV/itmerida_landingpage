@@ -133,6 +133,6 @@ ul li::marker {
     background-color: #800000;
     color: white;
     text-align: center;
-    padding: 20px 0px 60px 0px;
+    padding: 20px 0px 20px 0px;
     margin-top: -8px;
 }
