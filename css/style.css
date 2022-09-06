@@ -75,7 +75,7 @@ body {
     text-align: center;
     padding: 20px 40px 10px 40px;
 }
-.borde_rojo img {
+.img_border {
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -89,4 +89,16 @@ body {
 }
 .texto_amarillo {
     color: #cc9900;
+}
+.texto_rojo {
+    color: #800000;
+}
+.semester {
+    text-align: left;
+    color: #cc9900;
+    vertical-align: middle;
+}
+.engrane {
+    vertical-align: middle;
+    width: 30px;
 }
