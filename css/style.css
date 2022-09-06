@@ -9,6 +9,7 @@ html {
 body {
     font-family: helvetica;
     font-size: 16px;
+    font-weight: 520;
     line-height: 24px;
     color: #333;
 }
@@ -32,6 +33,11 @@ body {
     color: white;
     background: #800000;
     margin-right: 35px;
+    transition: 500ms;
+}
+.menu a:hover {
+    background: #4a0000;
+    transition: 500ms;
 }
 .menu:last-child {
     margin-right: 0;
@@ -93,12 +99,40 @@ body {
 .texto_rojo {
     color: #800000;
 }
-.semester {
+.container_materias {
     text-align: left;
+}
+.semester {
     color: #cc9900;
     vertical-align: middle;
+}
+.semester b {
+    vertical-align: middle;
+    margin-top: 10px;
 }
 .engrane {
     vertical-align: middle;
     width: 30px;
+    margin-right: 5px;
+}
+.container_materias ul {
+    margin: 15px 70px;
+}
+ul li {
+    margin-bottom: -5px;
+}
+ul:last-child {
+    margin-bottom: 25px;
+}
+ul li::marker {
+    font-size: 25px;
+    color: black;
+    vertical-align: bottom;
+}
+.contenedor_rojo {
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    padding: 20px 0px 60px 0px;
+    margin-top: -8px;
 }
